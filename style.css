@@ -1,0 +1,99 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 25px;
+  background-color:white;
+}
+h1{
+  color: rgb(177, 84, 84);
+  font-family:cursive ;
+  font-weight:500px;
+  font-size: 40px;
+  animation: slideIn 2s ease-out forwards;
+  opacity: 0; 
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.main{
+  width: 70%;
+  height: 600px;
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color:gray;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid bisque;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 30px 20px;
+}
+.controls{
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid bisque;
+  height: 350px;
+  width: 200px;
+  border-radius: 15px;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+.grid-square{
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+button{
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: transform scale;
+  border: none;
+}
+button:hover{
+  background-color: burlywood;
+}
+.color-picker-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#colorPicker {
+  appearance: none; /* Remove default styling (works in some browsers) */
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+

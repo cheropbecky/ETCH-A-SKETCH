@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ETCH~ A ~SKETCH</h1>
+  <div class="main">
+  <div class="controls">
+    <h2>Controls</h2>
+
+    <label for="gridSize">Grid Size: <span id="gridValue">16</span>x<span id="gridValue2">16</span></label>
+      <input type="range" id="gridSize" min="4" max="100" value="16" />
+
+      <div class="color-picker-wrapper">
+        <label for="colorPicker">Pick a Color:</label>
+      <input type="color" id="colorPicker" value="#000000" />
+      </div>
+
+      <button id="rgbModeBtn">RGB Mode</button>
+
+
+      
+      <button id="eraser">🧽 Eraser</button>
+
+     
+      <button id="reset">🔁 Reset</button>
+    </div>
+    <div id="container"></div>
+   
+  </div>
+
+ 
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

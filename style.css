@@ -24,7 +24,7 @@ h1{
 }
 
 .main{
-  width: 70%;
+  width: 80%;
   height: 600px;
   display: flex;
   margin: 20px auto;
@@ -34,16 +34,13 @@ h1{
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-
-
-
 #container{
   display: flex;
   flex-wrap: wrap;
   width: 500px;
   height: 500px;
   border-radius: 10px;
-  border: 1px solid bisque;
+  border: 1px solid gray;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   background-color: white;
   padding: 30px 20px;
@@ -54,7 +51,7 @@ h1{
   line-height: 30px;
   display: flex;
   flex-direction: column;
-  border: 1px solid bisque;
+  border: 1px solid rgb(74, 73, 73);
   height: 350px;
   width: 200px;
   border-radius: 15px;box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
